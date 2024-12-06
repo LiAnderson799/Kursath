@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Чат-бот</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="description" name="description">
+    <!-- Favicons -->
+    <link href="img/logo.png" rel="icon">
+    <!-- Normalize CSS File -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+</head>
+<script language='JavaScript' type='text/javascript'>
+document.Popup = function() { Popup() };
+
+function Popup() {
+    showErrorPopup()
+}
+document.endPopup = function() { endPopup() };
+
+function endPopup() {
+    hideErrorPopup()
+}
+</script>
+
+<body class="body body__chat">
+    <section class="nav">
+        <div class="container">
+            <div class="nav__flex">
+                <div class="nav__flex__item">
+                    <a href="back_tocabinet_2">
+                        <img src="img/arrow-blue.png" class="nav__back">
+                    </a>
+                    <div class="nav__icon">
+                        <img src="img/book.png">
+                    </div>
+                    <div class="nav__title">
+                        Чат-бот <br>
+                        <span style="color: #767676; font-size: 9px;">Звонок оператору.</span>
+                    </div>
+                </div>
+                <div class="nav__flex__item">
+                    <a href="#">
+                        <img src="img/download.png" class="nav__edit" style="width: 12px;">
+                    </a>
+                    <a href="#">
+                        <img src="img/reload.png" class="nav__edit">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="chat">
+        <div class="chat__content">
+            <div class="chat__data">18 ноября 2024</div>
+            <div class="chat__message incoming">
+                Сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение
+                <div class="chat__message__time">23:33</div>
+            </div>
+            <div class="chat__message outgoing">
+                Сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение сообщение
+                <div class="chat__message__time">23:33</div>
+            </div>
+            <div class="chat__message incoming">
+                <a href="#">
+                    <img src="img/picture.jpg" class="chat__message__img">
+                </a>
+                <div class="chat__message__time">23:33</div>
+            </div>
+            <div class="chat__message outgoing">
+                <a href="#">
+                    <img src="img/picture.jpg" class="chat__message__img">
+                </a>
+                <div class="chat__message__time">23:33</div>
+            </div>
+        </div>
+        <div class="chat__enter">
+            <textarea name="message" placeholder="Сообщение" rows="1"></textarea>
+            <div>
+                <a href="#" class="chat__enter__add">
+                    <img src="img/add.png" class="icon non">
+                    <img src="img/add-active.png" class="icon active">
+                </a>
+                <a href="#" class="chat__enter__send">
+                    <img src="img/send.png" class="icon non">
+                    <img src="img/send-active.png" class="icon active">
+                </a>
+            </div>
+        </div>
+    </section>
+    <div id="hellopreloader">
+        <div id="hellopreloader_preload"></div>
+    </div>
+    <!-- Masked Input -->
+    <script src="lib/maskinput/jquery.maskedinput.min.js"></script>
+    <script src="js/authoResize.js"></script>
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

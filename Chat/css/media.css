@@ -1,0 +1,41 @@
+@media (min-width: 992px){
+	.main{
+		width: 982px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav__title {
+	    font-size: 1.2vw;
+	}
+	.main__auth__title {
+	    font-size: 1vw
+	}
+	.main__auth__error{
+		font-size: 0.8vw;
+	}
+	.main__auth__input{
+		font-size: 1.5vw;
+	}
+}
+@media (min-width: 576px){
+	.cabinet__info, .cabinet__line{
+		width: 556px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.sale__link{
+		width: 556px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (max-width: 576px) {
+	.main {
+	    margin-top: 22vh;
+	}
+}
+@media (max-width: 400px) {
+	.main__logo {
+	    width: 92.5vw;
+	}
+}
